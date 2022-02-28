@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package protos;
+
+
+option go_package = "../pb";
+
+message UserProto {
+    string first_name = 1;
+    string last_name = 2;
+    string address = 3;
+    string pincode = 4;
+    bool is_valid = 5;
+    float account_balance = 6;
+}
